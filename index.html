@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>System.import('app');</script>
+</head>
+<body>
+
+	<div ng-controller="MainCtrl">
+	  <div ng-repeat="vegetable in vegetables">
+	  	name is: {{vegetable.name}}.<br/>
+		change name: <input type="text" ng-model="vegetable.name"/><button type="submit" ng-click="vegetable.put()">update</button>
+		</div>
+		<div>
+			add new: <br/>
+			<input type="text" ng-model="newVegetable.name"/><button type="submit" ng-click="add()">add</button>
+		</div>
+	</div>
+
+</body>
