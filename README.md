@@ -1,0 +1,1 @@
+issue with JSPM 0.15.1 & lodash
