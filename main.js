@@ -1,6 +1,7 @@
 'use strict';
 
 import _ from 'lodash/lodash';
+window._ = _;
 import 'angular';
 import 'restangular';
 
