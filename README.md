@@ -47,3 +47,5 @@ import 'angular';
 import 'restangular';
 
 ```
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vincentbriglia/jspm-lodash.svg)](https://greenkeeper.io/)
