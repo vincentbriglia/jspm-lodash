@@ -13,6 +13,6 @@
     }
   },
   "devDependencies": {
-    "jspm": "^0.15.1"
+    "jspm": "^0.16.53"
   }
 }
